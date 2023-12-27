@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="99.676322">
+<testcase classname="Validate the forgotten password functionality" name="Validate the forgotten with invalid mobile number" time="11.740634">
+<system-out><![CDATA[Given User should open chrome browser and load url..........................passed
+When User should click the forgotten password link..........................passed
+And User should input invalid mobile number on the textbox..................passed
+And User should click the search button.....................................passed
+Then User should navigate to recover page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Facebook Page" name="Validate the login with invalid username and invalid password" time="18.863719">
+<system-out><![CDATA[Given User should launch the chrome browser and load url....................passed
+When User should input invalid username and invalid passworD in the textbook.passed
+And User should click the login button......................................passed
+And User should print the title of the page.................................passed
+And User should print the current Url of my page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Facebook Page" name="Validate the login with valid username and invalid password" time="9.374436">
+<system-out><![CDATA[Given User should launch the chrome browser and load url....................passed
+When User should input valid username and invalid password in the textbook..passed
+And User should click the login button......................................passed
+And User should print the current Url of the page...........................passed
+And User should print the title of the page.................................passed
+Then User should navigate to incorrect credential page......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Facebook Page" name="Validate the login with invalid username and valid password" time="21.606322">
+<system-out><![CDATA[Given User should launch the chrome browser and load url....................passed
+When User should input invalid username "Apple" and valid password "Green" in the textbook.passed
+And User should click the login button......................................passed
+And User should print the current Url of the page...........................passed
+And User should print the title of the page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Facebook Page" name="Validate the login with invalid username and valid password 2" time="23.468731">
+<system-out><![CDATA[Given User should launch the chrome browser and load url....................passed
+When User should input invalid username "Orange" and valid password "Black" in the textbook.passed
+And User should click the login button......................................passed
+And User should print the current Url of the page...........................passed
+And User should print the title of the page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Facebook Page" name="Validate the login with invalid username and valid password 3" time="14.62248">
+<system-out><![CDATA[Given User should launch the chrome browser and load url....................passed
+When User should input invalid username "Grapes" and valid password "Yellow" in the textbook.passed
+And User should click the login button......................................passed
+And User should print the current Url of the page...........................passed
+And User should print the title of the page.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

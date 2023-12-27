@@ -1,0 +1,744 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-27T18:11:31.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3890614000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configChrome()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate the forgotten with invalid mobile number",
+        "description": "",
+        "id": "validate-the-forgotten-password-functionality;validate-the-forgotten-with-invalid-mobile-number",
+        "after": [
+          {
+            "result": {
+              "duration": 636065800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2916170200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should open chrome browser and load url",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldOpenChromeBrowserAndLoadUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3981689100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click the forgotten password link",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldClickTheForgottenPasswordLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179731800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should input invalid mobile number on the textbox",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldInputInvalidMobileNumberOnTheTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96374200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the search button",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldClickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14329000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should navigate to recover page",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldNavigateToRecoverPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the forgotten password functionality",
+    "description": "",
+    "id": "validate-the-forgotten-password-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Forgetten.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2850955800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the chrome browser and load url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_the_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-27T18:11:43.385Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4268605200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configChrome()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the login with invalid username and invalid password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-facebook-page;validate-the-login-with-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 668012300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2411351600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should input invalid username and invalid passworD in the textbook",
+            "match": {
+              "location": "LoginStepDefinition.userShouldInputInvalidUsernameAndInvalidPassworDInTheTextbook(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Kumar",
+                  "Kumar@123",
+                  "Kavin",
+                  "Kavin@123",
+                  "Praveen",
+                  "Praveen@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Yellow",
+                  "Yellow@123",
+                  "Green",
+                  "Green@123",
+                  "Pink",
+                  "Pink@123"
+                ]
+              },
+              {
+                "cells": [
+                  "Vinay",
+                  "Vinay@123",
+                  "Kavin",
+                  "Kavin@123",
+                  "Anu",
+                  "Anu@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2197228400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6412197000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should print the title of the page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28892800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should print the current Url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_Url_of_my_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Pink"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2951146300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the chrome browser and load url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_the_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-27T18:12:02.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2608250100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configChrome()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate the login with valid username and invalid password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-facebook-page;validate-the-login-with-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 703161000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 277445600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should input valid username and invalid password in the textbook",
+            "match": {
+              "location": "LoginStepDefinition.user_should_input_valid_username_and_invalid_password_in_the_textbook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2137040600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659913000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should print the current Url of the page",
+            "match": {
+              "location": "LoginStepDefinition.userShouldPrintTheCurrentUrlOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14999400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should print the title of the page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15474800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should navigate to incorrect credential page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Yellow"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2937112700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the chrome browser and load url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_the_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-27T18:12:11.632Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3739866300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configChrome()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Validate the login with invalid username and valid password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-facebook-page;validate-the-login-with-invalid-username-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 686097600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 357318300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should input invalid username \"Apple\" and valid password \"Green\" in the textbook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Green\"",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputInvalidUsernameAndValidPasswordInTheTextbook(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2130090800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11629847200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should print the current Url of the page",
+            "match": {
+              "location": "LoginStepDefinition.userShouldPrintTheCurrentUrlOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115944900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should print the title of the page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4204719900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the chrome browser and load url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_the_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-27T18:12:33.240Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4566862400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configChrome()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Validate the login with invalid username and valid password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-facebook-page;validate-the-login-with-invalid-username-and-valid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 699051900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 438110000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should input invalid username \"Orange\" and valid password \"Black\" in the textbook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Orange\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Black\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputInvalidUsernameAndValidPasswordInTheTextbook(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2225551500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11310392700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should print the current Url of the page",
+            "match": {
+              "location": "LoginStepDefinition.userShouldPrintTheCurrentUrlOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15391200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should print the title of the page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3596044200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the chrome browser and load url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_the_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-27T18:12:56.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4986270900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configChrome()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Validate the login with invalid username and valid password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-facebook-page;validate-the-login-with-invalid-username-and-valid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 672266500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 234129600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should input invalid username \"Grapes\" and valid password \"Yellow\" in the textbook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Grapes\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Yellow\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputInvalidUsernameAndValidPasswordInTheTextbook(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2120263700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2988265100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should print the current Url of the page",
+            "match": {
+              "location": "LoginStepDefinition.userShouldPrintTheCurrentUrlOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20375500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should print the title of the page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login Functionality of Facebook Page",
+    "description": "",
+    "id": "validate-the-login-functionality-of-facebook-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Login.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
